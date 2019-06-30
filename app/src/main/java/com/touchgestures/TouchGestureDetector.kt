@@ -80,7 +80,7 @@ class TouchGestureDetector(context: Context, private val listener: Listener) {
         val eventTime: Long = event.eventTime
         pointerCount = event.pointerCount
 
-        if (event.actionMasked in arrayOf(MotionEvent.ACTION_DOWN, MotionEvent.ACTION_POINTER_DOWN, MotionEvent.ACTION_UP, MotionEvent.ACTION_POINTER_UP)) {
+        if (event.actionMasked in arrayOf(MotionEvent.ACTION_DOWN, MotionEvent.ACTION_POINTER_DOWN, MotionEvent.ACTION_UP, MotionEvent.ACTION_POINTER_UP, MotionEvent.ACTION_CANCEL)) {
             isRotBufferIdx = 0
 
             if (moved && firstPointerUpTime == -1L && event.actionMasked in arrayOf(MotionEvent.ACTION_UP, MotionEvent.ACTION_POINTER_UP)) {
