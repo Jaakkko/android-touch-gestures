@@ -10,7 +10,7 @@ Detect multiple multi-touch gestures such as zoom and rotation with fling.
 
 | Scale/Zoom | Rotation | Move/Translate |
 | ---------- | -------- | -------------- |
-| <img src="screenshots/zoom.gif" width="290px">  | <img src="screenshots/rotation.gif" width="290px"> | <img src="screenshots/translate.gif" width="290px"> |
+| <img src="screenshots/zoom.gif" width="200px">  | <img src="screenshots/rotation.gif" width="200px"> | <img src="screenshots/translate.gif" width="200px"> |
 
 # Usage
 ```kotlin
